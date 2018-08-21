@@ -1,0 +1,1 @@
+from sc2scout.wrapper.explore_target_curran.target_maker_curran import TargetMakerC1
