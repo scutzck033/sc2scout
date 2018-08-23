@@ -19,7 +19,7 @@ class ZergBotAgent(AgentBase):
             if (u.int_attr.unit_type == UNIT_TYPEID.ZERG_QUEEN.value and 
                 u.int_attr.alliance == sm.AllianceType.SELF.value):
                 queen = u
-            elif (u.int_attr.unit_type == UNIT_TYPEID.ZERG_OVERLORD.value and
+            elif (u.int_attr.unit_type == UNIT_TYPEID.ZERG_ZERGLING.value and
                   u.int_attr.alliance == sm.AllianceType.ENEMY.value):
                 enemy = u
 
