@@ -14,7 +14,8 @@ MAP_SIZE = {
     'Acolyte': (168, 200),
     'ScoutSimple64Dodge': (88, 96),
     'ScoutSimple64Dodge2': (88, 96),
-    'ScoutSimple64Dodge3': (88, 96)
+    'ScoutSimple64Dodge3': (88, 96),
+    'ScoutSimple64WithQueen_ScoutRandom_Doge1':(88,96)
 }
 
 class ZergScoutSelfplayEnv(SC2SelfplayGymEnv):
