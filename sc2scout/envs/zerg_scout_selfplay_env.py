@@ -144,7 +144,7 @@ class ZergScoutSelfplayEnv(SC2SelfplayGymEnv):
                 tmp_minerals.append(u)
             elif self._check_vespene(u):
                 tmp_vespene.append(u)
-            elif u.int_attr.unit_type == UNIT_TYPEID.ZERG_OVERLORD.value:
+            elif u.int_attr.unit_type == UNIT_TYPEID.ZERG_ZERGLING.value:
                 if self._scout is None:
                     self._scout = u
                     self._scout_survive = True
